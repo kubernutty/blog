@@ -7,8 +7,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 	<meta name="generator" content="Jekyll">
 
-	<title>This is second test post.</title>
-  <meta name="description" content="This is the second test post.">
+	<title>Kubernetes Pod logs</title>
+  <meta name="description" content="Shows you how to retrieve logs from a Kubernetes pod">
 
 	<!-- CSS & fonts -->
 	<link rel="stylesheet" href="/css/main.css">
@@ -35,11 +35,33 @@
 	    
 	  
 	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
 	      <a href="/about" title="About Us">About Us</a>
-	    
-	  
-	    
-	  
 	    
 	  
 	    
@@ -94,11 +116,33 @@
 	      
 	    
 	      
+	    
+	      
+	    
+	      
+	    
+	      
+	    
+	      
+	    
+	      
+	    
+	      
+	    
+	      
+	    
+	      
+	    
+	      
+	    
+	      
+	    
+	      
+	    
+	      
+	    
+	      
 	        <a href="/about" title="About Us">About Us</a>
-	      
-	    
-	      
-	    
 	      
 	    
 	      
@@ -129,13 +173,42 @@
 		<main>
 
 			<article id="post-page">
-	<h2>Test Post 2</h2>		
-	<time datetime="2017-02-11T00:00:00+00:00" class="by-line">11 Feb 2017</time>
+	<h2>Kubernetes Pod logs</h2>		
+	<time datetime="2017-04-05T00:00:00+00:00" class="by-line">05 Apr 2017</time>
 	<div class="content">
 
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate est optio ut impedit architecto iusto tempore rem, voluptates sed magni nisi corrupti praesentium voluptatum harum expedita temporibus ipsam, odit ad distinctio! Labore cupiditate distinctio facere earum, iste! Reiciendis possimus voluptatum explicabo corporis ab. Ex adipisci laudantium mollitia vel optio deserunt blanditiis cum dolore beatae facilis molestias ut a doloribus recusandae delectus, repudiandae, rerum quo eaque quaerat enim dolores perspiciatis voluptatum odio accusamus! Doloribus fuga provident, magni eaque consequatur quia incidunt similique. Nostrum animi facere mollitia, corrupti vitae, itaque maiores consequatur, explicabo, sapiente molestiae consequuntur! Aliquam hic dolorum atque dolorem repudiandae nostrum optio praesentium quisquam vero. Nostrum illum modi aut, ratione qui! Quas laudantium, soluta asperiores minima molestiae similique consequatur ut.</p>
+		<p>There are a few useful options when getting logs from your Kubernetes pods:</p>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda ad tenetur, numquam aliquid excepturi fuga. Pariatur numquam rem possimus, optio voluptate aspernatur ex, ipsum tenetur earum molestiae nulla suscipit sequi labore fugit repudiandae natus? Nam vel rem, rerum maxime harum. Molestias suscipit quaerat molestiae dolores fuga earum modi, distinctio repellat, laborum commodi quibusdam ex dolore, eius maiores architecto necessitatibus. Repellendus a vitae, est nesciunt. Aspernatur fugiat labore cumque, optio, magni, aperiam ut totam error eligendi iure culpa illum dolorum quam?</p>
+<ul>
+  <li>tailing</li>
+  <li>showing the last x number of lines</li>
+  <li>combining options</li>
+</ul>
+
+<h3 id="tailing">tailing</h3>
+
+<p>This will tail and follow the pod’s logs</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>kubectl -f &lt;pod_name&gt;
+</code></pre>
+</div>
+
+<h3 id="showing-the-last-x-number-of-lines">Showing the last X number of lines</h3>
+
+<p>When a pod has been running for a while, the logs can be very long.  You probably
+only want to see the last few lines.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>kubectl --tail=10 &lt;pod_name&gt;
+</code></pre>
+</div>
+
+<h3 id="combining-options">Combining options</h3>
+
+<p>You can combine the follow and last x number of lines options</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>kubectl -f --tail=10 &lt;pod_name&gt;
+</code></pre>
+</div>
 
 		
 	</div>
