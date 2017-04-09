@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>Monochrome | A minimal, responsive Jekyll blog theme</title>
+ <title>Kubernutty.io | All things Docker and Kubernetes</title>
  <link href="http://0.0.0.0:4000/atom.xml" rel="self"/>
  <id>http://0.0.0.0:4000</id>
- <updated>2017-04-06T05:54:58+00:00</updated>
+ <updated>2017-04-09T18:45:12+00:00</updated>
  <author>
-   <name>The Review Index</name>
-   <uri>https://thereviewindex.com</uri>
-   <email>dyutibarma@gmail.com</email>
+   <name>Kubernutty.io</name>
+   <uri>https://www.kubernutty.io</uri>
+   <email>support@kubernutty.com</email>
  </author>
 
  

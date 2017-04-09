@@ -1,11 +1,11 @@
 # Site settings
-title: Monochrome | A minimal, responsive Jekyll blog theme
-description: "A minimal, responsive, ready to use blog template, built with Jekyll."
-url: "http://www.dyutibarma.github.io/monochrome"
+title: Kubernutty.io | All things Docker and Kubernetes
+description: "We are Docker and Kubernetes enthusiast who uses this set of technologies to deploy everything!"
+url: "http://www.kubernutty.io"
 author:
-  name: "The Review Index"
-  email: "dyutibarma@gmail.com"
-  url: "https://thereviewindex.com"
+  name: "Kubernutty.io"
+  email: "support@kubernutty.com"
+  url: "https://www.kubernutty.io"
 
 # Build settings
 baseurl: / # Change this to your relative path (ex: /blog/), or leave just a /
