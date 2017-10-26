@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["id@andrewfong.com"]
 
   spec.summary       = %q{A place for us to blog about Kubernetes.}
-  spec.homepage      = "https://github.com/fongandrew/hydeout"
+  spec.homepage      = "https://kubernutty.io"
   spec.license       = "MIT"
 
   spec.metadata["plugin_type"] = "theme"
