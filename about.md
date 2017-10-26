@@ -1,8 +1,13 @@
 ---
 layout: page
-title: About Us
-description: This page describes monochrome.
+title: About
+sidebar_link: true
 ---
-## About
-We are a group of DevOps and Security engineers that has embraced Docker and Kubernetes
-for large scale deployments of cloud infrastructure.
+
+<p class="message">
+  Hey there! This page is included as an example. Feel free to customize it
+  for your own use upon downloading. Carry on!
+</p>
+
+To make pages show up in the sidebar, add `sidebar_link: true` to the front
+matter.
