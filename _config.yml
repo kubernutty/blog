@@ -3,7 +3,7 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            Kubernutty.io
+title:            Kubernutty
 tagline:          'A place for us to blog about Kubernetes.'
 description:      'A place for us to blog about Kubernutes'
 url:              https://www.kubernutty.io
