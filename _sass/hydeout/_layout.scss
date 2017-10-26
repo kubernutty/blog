@@ -42,7 +42,8 @@ body {
   .site-title {
     font-family: "Abril Fatface", serif;
     font-weight: normal;
-    font-size: $large-font-size;
+    #font-size: $large-font-size;
+    font-size: 10;
     color: rgba(255,255,255,.75);
     margin-top: 0;
     margin-bottom: $heading-spacing;
