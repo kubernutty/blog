@@ -5,9 +5,6 @@ sidebar_link: true
 ---
 
 <p class="message">
-  Hey there! This page is included as an example. Feel free to customize it
-  for your own use upon downloading. Carry on!
+  Hi, we are a bunch of DevOps consultants and people that just likes to use kubernetes.
+  We have setup this blog to talk about all things Kubernetes and Docker.
 </p>
-
-To make pages show up in the sidebar, add `sidebar_link: true` to the front
-matter.

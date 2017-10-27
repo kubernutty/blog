@@ -4,8 +4,8 @@ highlighter:      rouge
 
 # Setup
 title:            ""
-tagline:          'Kubernutty.io - A place for us to blog about Kubernetes.'
-description:      'Kubernutty.io - A place for us to blog about Kubernetes.'
+tagline:          'A place for us to blog about Kubernetes.'
+description:      'A place for us to blog about Kubernetes.'
 url:              https://www.kubernutty.io
 baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
@@ -35,3 +35,5 @@ sidebar_home_link:  true
                                 # to enable a separate blog link.
 github:
   repo:             https://kubernutty.github.io/blog
+
+google_analytics: UA-97032087-1
