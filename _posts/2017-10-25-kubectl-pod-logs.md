@@ -39,3 +39,5 @@ You can combine the follow and last x number of lines options
 ```
 kubectl -f --tail=10 <pod_name>
 ```
+
+\-------------------------------------------------------------------------------
