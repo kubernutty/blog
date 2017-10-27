@@ -142,3 +142,19 @@ You can see the full set of partials you can replace in the
 
 There's also a bunch of minor tweaks and adjustments throughout the
 theme. Hope this works for you!
+
+# Running locally:
+
+```
+docker run -it -v ${PWD}:/opt -p 4000:4000 ruby:2.4.1 bash
+
+gem install jekyll bundler
+gem install jekyll-paginate
+gem install jekyll-sitemap
+gem install jekyll-gist
+gem install jekyll-feed
+
+cd /opt
+
+jekyll serve -H 0.0.0.0
+```
