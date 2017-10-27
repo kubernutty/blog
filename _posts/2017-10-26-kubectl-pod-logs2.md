@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "kubectl Pod logs"
+title: "> kubectl Pod logs"
 excerpt_separator: "<!--more-->"
 categories:
   - kubernetes

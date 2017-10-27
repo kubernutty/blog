@@ -3,9 +3,9 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            Kubernutty
-tagline:          'A place for us to blog about Kubernetes.'
-description:      'A place for us to blog about Kubernutes'
+title:            ""
+tagline:          'Kubernutty.io - A place for us to blog about Kubernetes.'
+description:      'Kubernutty.io - A place for us to blog about Kubernetes.'
 url:              https://www.kubernutty.io
 baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
@@ -27,7 +27,7 @@ plugins:
   - jekyll-paginate
 
 # Custom vars
-version:            3.4.1
+version:            false
 sidebar_home_link:  true
 # sidebar_blog_link:  '/blog'   # By default, your home page is your blog
                                 # page. If you change your paginate_path,
