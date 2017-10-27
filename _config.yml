@@ -4,8 +4,8 @@ highlighter:      rouge
 
 # Setup
 title:            ""
-tagline:          'A place for us to blog about Kubernetes.'
-description:      'A place for us to blog about Kubernetes.'
+tagline:          'This is a place for us to blog about Kubernetes and talk about our experience with it'
+description:      'This is a place for us to blog about Kubernetes and talk about our experience with it'
 url:              https://www.kubernutty.io
 baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
