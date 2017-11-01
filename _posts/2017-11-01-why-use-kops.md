@@ -41,7 +41,7 @@ If after running your application on a cluster that `kops` built and it doesnt w
 I would argue even if you think it will not work, I would prototype it on a cluster brought up by `kops` first to see if it will work for your use case.  If it does or through this process you find an alternate method to make your application work, you would have not only saved yourself time on creating a cluster yourself but countless hours in the future on upgrades and security patches that the `kops` team will take of for you.
 
 ## Final recommendation
-I would recommend using `kops` it is a great tool that I have used over and over again for dev and production Kubernetes clusters.
+I would recommend using `kops` it is a great tool that I have used over and over again for building dev and production Kubernetes clusters.
 
 I would also recommend using some kind of automated way of bringing up a Kubernetes cluster.  This can be something like [kubeadm](https://kubernetes.io/docs/setup/independent/create-cluster-kubeadm/) or [kube spray](https://github.com/kubernetes-incubator/kubespray).  Or go SaaS and dont even manage your own cluster with [GKE](https://cloud.google.com/container-engine/). My recommendation is rolling your own cluster is the last option.
 
