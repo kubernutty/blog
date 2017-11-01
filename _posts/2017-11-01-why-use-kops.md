@@ -29,21 +29,15 @@ that makes it very hard to use.
 `kops` is very well documented.  Almost every feature has various examples on usage
 with cli commands included.
 
-## Creation
-You
+## Should you use it?
 
+I think if you dont need a super customized Kubernetes cluster then you should use `kops`.  When I say "super customized" it would be stuff like running an OS that `kops` does not support or if you need to install something onto the base OS.
 
-## Network
-Cluster creation and provisioning is highly configurable.  You can tell `kops` to
-place this cluster in a specific VPC, specify AWS availability zones, IP ranges for
-each subnets, and many more options.
+I also think that as a first swag at your application, use `kops` to bring up a Kubernetes cluster.  Put your app on there and try it out.  A lot of the time you dont need to customize too much because your application is Dockerized already and it is agnostic to what runs it.
 
-## Cluster config yaml
+If after running your application on a cluster that `kops` built for you doesnt work for some reason and you have determined that you need to build your own cluster, not much time is lost.  Mostly all of your Kubernetes application configuration files will work on your new cluster with zero to almost zero changes.
 
-
-## Updating
-
-
+I would argue even if you think it will not work, I would prototype it on a cluster brought up by `kops` first.  The big reason is that you dont have to maintain creating and upgrading the cluster.  The good folks at `kops` is doing all that for you and testing it out.
 
 
 \-------------------------------------------------------------------------------
