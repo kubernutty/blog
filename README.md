@@ -145,14 +145,22 @@ theme. Hope this works for you!
 
 # Running locally:
 
-```
-docker run -it -v ${PWD}:/opt -p 4000:4000 ruby:2.4.1 bash
+Running for the first time:
 
-gem install jekyll bundler
-gem install jekyll-paginate
-gem install jekyll-sitemap
-gem install jekyll-gist
-gem install jekyll-feed
+```
+docker run --name blog -it -v ${PWD}:/opt -p 4000:4000 ruby:2.4.1 bash
+
+cd /opt
+bundle install
+
+jekyll serve -H 0.0.0.0
+```
+
+Running it subsequently without having to re-run all of the `gem install` steps:
+
+```
+docker start blog
+docker exec -it blog bash
 
 cd /opt
 
